@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.page {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#page-header {
+    margin-bottom: -23px;
+    position: relative;
+    z-index: 1;
+}
+
+.page_header--background_img {
+    width: 100%;
+}
+
+.page_footer--mandarin {
+    background-color: #fc4c02;
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 10px;
+}
+
+.page_footer--logo {
+    margin: 0 auto;
+    display: block;
+}
+
+.page_footer--copyright {
+    font-size: 11px;
+    color: #646869;
+    text-align: center;
+}
+
+.page_footer--copyright span {
+    display: block;
+}
+
+#page_main_content {
+    position: relative;
+    top: -23px;
+    z-index: 2;
+}
+
+.sec_posts_cards--card {
+    padding: 0 5px;
+}
+
+.thumb_adjuster--thumb {
+    width: 100%;
+}
+
+.card-heading--main,
+.card_content--heading {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.card-source--main,
+.card_content--source {
+    font-size: 12px;
+    color: #b2b2b2;
+    font-style: italic;
+}
+
+.creative {
+    width: 40%;
+    margin-top: 5px;
+    height: 5px;
+}
+
+.main_content--main_post_cards,
+.main_content--sec_posts_cards {
+    margin-bottom: 20px;
+}
+
+.main_content--sec_posts_cards td {
+    vertical-align: top;
+    width: 50%;
+}
+
+.main_thumb_adjuster--main_thumb {
+    width: 100%;
+}
+
+.card-desc-main {
+    font-size: 15px;
+}
+
+.card--link {
+    text-decoration: none;
+    color: black;
+}
+
+.card--link:hover h2 {
+    text-decoration: underline;
+}
+
+/* Additional styles based on feedback */
+.ExternalClass {
+    width: 100%;
+}
+
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td {
+    line-height: 100%;
+}
