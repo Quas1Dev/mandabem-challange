@@ -1,5 +1,67 @@
-_site
-.sass-cache
-.jekyll-cache
+# Jekyll build and generated content
+_site/
+.sass-cache/
 .jekyll-metadata
-vendor
+.jekyll-cache/
+
+# Gem-related files
+Gemfile.lock
+
+# Bundler configuration
+.bundle/
+
+# Editor and system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Local development environment
+.env
+.env.local
+.env.*.local
+.env.*.local.php
+.env.*.local.py
+.env.*.local.rb
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Build output directories for specific platforms
+_output_ios/
+_output_android/
+_output_web/
+
+# Logs and other generated files
+*.log
+*.log.*
+*.pid
+*.seed
+*.pid.lock
+
+# Caches and temp files
+*.cache
+*.tmp
+*.temp
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Ignore GitHub Pages generated files
+.sass-cache/
+.gitignore
+.sass-cache/
+.gitignore
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
