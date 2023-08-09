@@ -8,7 +8,7 @@ _site/
 Gemfile.lock
 
 # Bundler configuration
-.bundle/
+vendor/
 
 # Editor and system files
 .vscode/
