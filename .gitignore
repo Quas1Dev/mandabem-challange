@@ -54,9 +54,7 @@ $RECYCLE.BIN/
 
 # Ignore GitHub Pages generated files
 .sass-cache/
-.gitignore
 .sass-cache/
-.gitignore
 .jekyll-cache/
 .jekyll-metadata
 .sass-cache/
