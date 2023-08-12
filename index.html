@@ -3,112 +3,143 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/index.css">
     <title>Desafio Mandabem</title>
 
     <style>
-body {
+       body {
     font-family: Arial, sans-serif;
     font-size: 18px;
     line-height: 1.5;
     margin: 0;
+    background-color: #F5F5F5;
 }
 
-.page {
+/* Instead of using max-width, use width with percentage values for responsive design */
+
+/* For email container */
+.email-container {
+    width: 100%;
     max-width: 600px;
+    /* Fallback for clients that support max-width */
     margin: 0 auto;
+    background-color: #ffffff;
 }
 
-#page-header {
+.header {
     position: relative;
-    z-index: 1;
     font-size: 0px;
 }
 
-.page_header--background_img {
+.header-image {
     width: 100%;
 }
 
-.page_footer--mandarin {
+.footer-mandarin {
     background-color: #fc4c02;
     text-align: center;
     padding: 15px 0;
     margin-bottom: 10px;
 }
 
-.page_footer--logo {
+.footer-logo {
     margin: 0 auto;
     display: block;
 }
 
-.page_footer--copyright {
+.footer-copyright {
     font-size: 11px;
     color: #646869;
     text-align: center;
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
 }
 
-.page_footer--copyright span {
+.footer-copyright a {
+    color: #646869;
+    text-decoration: underline;
+}
+.footer-copyright span {
     display: block;
 }
 
-#page_main_content {
+/* For content wrapper */
+.content-wrapper {
+    width: 93%;
+    max-width: 560px;
+    /* Fallback for clients that support max-width */
+    margin: 0 auto;
+}
+
+.content-wrapper tr div {
+    margin-bottom: 20px;
+}
+
+.main-content {
     position: relative;
     z-index: 2;
 }
 
-.sec_posts_cards--card {
-    padding: 0 5px;
-}
+.secondary-card {}
 
-.thumb_adjuster--thumb {
+.main-thumb {
     width: 100%;
 }
 
-.card-heading--main,
-.card_content--heading {
+.card-heading,
+.card-content-heading {
     font-size: 17px;
     font-weight: bold;
 }
 
-.card-source--main,
-.card_content--source {
+.card-source,
+.card-content-source {
     font-size: 12px;
     color: #b2b2b2;
     font-style: italic;
 }
 
 .creative {
-    width: 40%;
+    width: 60%;
     margin-top: 5px;
     height: 5px;
 }
 
-.main_content--main_post_cards,
-.main_content--sec_posts_cards {
+.creative-main {
+    width: 40%;
+}
+
+.main-post-cards,
+.secondary-post-cards {
     margin-bottom: 20px;
 }
 
-.main_content--sec_posts_cards td {
+.secondary-post-cards td {
     vertical-align: top;
     width: 50%;
 }
 
-.main_thumb_adjuster--main_thumb {
+.secondary-post-cards td.gap {
+    width: 0px;
+    padding-left: 10px;
+}
+
+.main-card-thumb {
     width: 100%;
 }
 
-.card-desc-main {
-    font-size: 15px;
+.card-description {
+    font-size: 13px;
 }
 
-.card--link {
+.card-link {
     text-decoration: none;
     color: black;
 }
 
-.card--link:hover h2 {
+.card-link:hover .card-heading {
     text-decoration: underline;
 }
 
@@ -127,119 +158,131 @@ body {
 </head>
 
 <body>
-    <table class="page" border="0" cellpadding="0" cellspacing="0"  align="center">
+    <table class="email-container" border="0" cellpadding="0" cellspacing="0" align="center">
         <tr>
-            <td id="page-header" aria-role="img"
-                aria-label="O cabeçalho do e-mail mostrando apenas uma imagem chamativa."
-                style="vertical-align: top;">
-                <img src="assets/imgs/full-banner.png" alt="" class="page_header--background_img">
-            </td>
-        </tr>
-
-        <tr>
-            <td id="page_main_content"
-                aria-label="Pequenas montagens mostrando algumas informações sobre as postagens da semana.">
-
-                <div class="main_content--main_post_cards">
-                    <a href="#" class="card--link">
-                        <div class="main_card--main_thumb_adjuster">
-                            <img src="https://i.postimg.cc/rwww7DZx/nrf.png" alt=""
-                                class="main_thumb_adjuster--main_thumb">
-                        </div>
-
-                        <div class="card-content">
-                            <h2 class="card-heading--main">
-                                NRF 2020: conheça os top 5 assuntos do evento.
-                            </h2>
-
-                            <p class="card-desc--main">
-                                O maior evento sobre varejo do mundo mostrando as tendências,
-                                oportunidades e inovações para o setor.
-                            </p>
-
-                            <span class="card-source--main">Fonte: CMO ADOBE</span>
-                            
-                            <br style="margin-top: 5px;">
-
-                            <img src="https://i.postimg.cc/MpfF0R6y/creative-line.png" alt="Linha de decoração."
-                                width="width: 40%" class="creative">
-
-                        </div>
-                    </a>
-                </div>
+            <td class="header" style="vertical-align: top;">
+                <img src="https://github.com/Quas1Dev/mandabem-challange/blob/main/assets/imgs/full-banner.png?raw=true" alt="" class="header-image">
             </td>
         </tr>
 
         <tr>
             <td>
-                <table style="width: 100%; max-width: 100%; ">
-                    <tr class="main_content--sec_posts_cards">
-                        <td width="50%" valign="top">
-                            <div class="sec_posts_cards--card">
-                                <a href="#" class="card--link">
-
-                                    <img src="https://i.postimg.cc/7P9PkdTQ/cut-whatsapp.png" alt="" class="thumb"
-                                        width="100%">
-
-
-                                    <div class="card--card_content">
-                                        <h2 class="card_content--heading">WhatsApp terá função de pagamentos em
-                                            2020.</h2>
-
-                                        <span class="card_content--source">Fonte: Daily Mail</span>
-
-                                        <br style="margin-top: 5px;">
-
-                                        <img src="https://i.postimg.cc/MpfF0R6y/creative-line.png"
-                                            alt="Linha de decoração." width="40%" class="creative">
-
+                <table class="content-wrapper" border="0" cellpadding="0" cellspacing="0" align="center">
+                    <tr>
+                        <td class="main-content">
+                            <div class="main-post-cards">
+                                <a href="#" class="card-link">
+                                    <div class="main-card-thumb">
+                                        <img src="https://github.com/Quas1Dev/mandabem-challange/blob/main/assets/imgs/nrf.png?raw=true"
+                                            alt="Cenário semelhante a uma convenção com várias mulheres sentadas em cadeiras. O pano de fundo apresenta uma placa vermelha com letras brancas, exibindo 'NRF 2020 VISION: RETAIL'S BIG SHOW', indicando que o evento é um seminário ou apresentação do setor de varejo. A cena transmite uma sensação de falar em público, fazendo com que o evento pareça uma reunião ou convenção significativa"
+                                            class="main-thumb">
                                     </div>
-                                </a>
-                            </div>
-                        </td>
 
-                        <td width="50%" valign="top">
-                            <div class="sec_posts_cards--card">
-                                <a href="#" class="card--link">
-
-                                    <img src="https://i.postimg.cc/tRk6MrR9/cut-kobe.png" alt="" class="thumb"
-                                        width="100%">
-
-                                    <div class="card--card_content">
-                                        <h2 class="card_content--heading">
-                                            Petição para colocar Kobe Bryant no logo da NBA.
+                                    <div class="card-content">
+                                        <h2 class="card-heading">
+                                            NRF 2020: Top 5 Highlights from the Event.
                                         </h2>
-                                        <span class="card_content--source">Fonte: Proxxima</span>
+
+                                        <p class="card-description">
+                                            The world's largest retail event showcasing trends, opportunities, and
+                                            innovations for the industry.
+                                        </p>
+
+                                        <span class="card-source">Source: CMO ADOBE</span>
 
                                         <br style="margin-top: 5px;">
-                                        <img src="https://i.postimg.cc/MpfF0R6y/creative-line.png"
-                                            alt="Linha de decoração." width="40%" class="creative">
+
+                                        <img src="https://github.com/Quas1Dev/mandabem-challange/blob/main/assets/imgs/creative-line.png?raw=true" alt=""
+                                            width="width: 40%" class="creative creative-main">
 
                                     </div>
                                 </a>
                             </div>
                         </td>
+                    </tr>
 
+                    <tr>
+                        <td>
+                            <table style="width: 100%; max-width: 100%;">
+                                <tr class="secondary-post-cards">
+                                    <td width="50%" valign="top">
+                                        <div class="secondary-card">
+                                            <a href="#" class="card-link">
+
+                                                <img src="https://github.com/Quas1Dev/mandabem-challange/blob/main/assets/imgs/cut-kobe.png?raw=true"
+                                                    alt="Logo da NBA com a silhueta branca de Kobe Bryant contrastando com o azul e vermelho da logo."
+                                                    class="card-thumb" width="100%">
+
+                                                <div class="card-content">
+                                                    <h2 class="card-heading">
+                                                        Petition to Feature Kobe Bryant on the NBA Logo.
+                                                    </h2>
+                                                    <span class="card-source">Source: Proxxima</span>
+
+                                                    <br style="margin-top: 5px;">
+                                                    
+                                                    <img src="https://github.com/Quas1Dev/mandabem-challange/blob/main/assets/imgs/creative-image-kobe.png?raw=true"
+                                                        width="60%" class="creative">
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </td>
+
+                                    <td class="gap" style="padding-left: 5px;">
+
+                                    </td>
+
+                                    <td width="50%" valign="top">
+                                        <div class="secondary-card">
+                                            <a href="#" class="card-link">
+
+                                                <img src="https://github.com/Quas1Dev/mandabem-challange/blob/main/assets/imgs/cut-whatsapp.png?raw=true" alt="Logo do WhatsApp."
+                                                    class="card-thumb" width="100%">
+
+                                                <div class="card-content">
+                                                    <h2 class="card-heading">WhatsApp to Introduce Payments Feature in
+                                                        2020.</h2>
+
+                                                    <span class="card-source">Source: Daily Mail</span>
+
+                                                    <br style="margin-top: 5px;">
+
+                                                    <img src="https://github.com/Quas1Dev/mandabem-challange/blob/main/assets/imgs/creative-image-whatsapp.png?raw=true.png"
+                                                         width="60%" class="creative">
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </td>
                     </tr>
                 </table>
             </td>
         </tr>
-        <tr id="page_footer">
+
+        <tr class="footer" id="page_footer">
             <td>
-                <div class="page_footer--mandarin">
-                    <a href="https://mandarin.com.br/" title="Visite o nosso website!">
-                        <img src="https://i.postimg.cc/4xWm36HW/logo-signature.png" alt="Logo da Mandarin."
-                            aria-label="Logomarca da empresa Mandarin consistindo no nome da empresa em uma fonte chamativa."
-                            class="page_footer--logo">
+
+                <div class="footer-mandarin">
+                    <a href="https://mandarin.com.br/" title="Visit our website!">
+                        <img src="https://github.com/Quas1Dev/mandabem-challange/blob/main/assets/imgs/logo-signature.png?raw=true" alt="Mandarin Logo"
+                            class="footer-logo" width="50%">
                     </a>
                 </div>
-                <div class="page_footer--copyright">
-                    <span>Copyright ® Mandarin. Todos os direitos reservados.</span>
-                    <span>Caso não deseje mais receber nossos e-mails, por favor clique aqui.</span>
+
+
+                <div class="footer-copyright">
+                    <span>Copyright ® Mandarin. All rights reserved.</span>
+                    <span>If you no longer wish to receive our emails, please <a href="#">click here</a>.</span>
                 </div>
             </td>
         </tr>
     </table>
+
 </body>
 
 </html>

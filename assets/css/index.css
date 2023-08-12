@@ -3,100 +3,132 @@ body {
     font-size: 18px;
     line-height: 1.5;
     margin: 0;
+    background-color: #F5F5F5;
 }
 
-.page {
+/* Instead of using max-width, use width with percentage values for responsive design */
+
+/* For email container */
+.email-container {
+    width: 100%;
     max-width: 600px;
+    /* Fallback for clients that support max-width */
     margin: 0 auto;
+    background-color: #ffffff;
 }
 
-#page-header {
+.header {
     position: relative;
-    z-index: 1;
+    font-size: 0px;
 }
 
-.page_header--background_img {
+.header-image {
     width: 100%;
 }
 
-.page_footer--mandarin {
+.footer-mandarin {
     background-color: #fc4c02;
     text-align: center;
     padding: 15px 0;
     margin-bottom: 10px;
 }
 
-.page_footer--logo {
+.footer-logo {
     margin: 0 auto;
     display: block;
 }
 
-.page_footer--copyright {
+.footer-copyright {
     font-size: 11px;
     color: #646869;
     text-align: center;
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
 }
 
-.page_footer--copyright span {
+.footer-copyright a {
+    color: #646869;
+    text-decoration: underline;
+}
+.footer-copyright span {
     display: block;
 }
 
-#page_main_content {
+/* For content wrapper */
+.content-wrapper {
+    width: 93%;
+    max-width: 560px;
+    /* Fallback for clients that support max-width */
+    margin: 0 auto;
+}
+
+.content-wrapper tr div {
+    margin-bottom: 20px;
+}
+
+.main-content {
     position: relative;
     z-index: 2;
 }
 
-.sec_posts_cards--card {
-    padding: 0 5px;
-}
+.secondary-card {}
 
-.thumb_adjuster--thumb {
+.main-thumb {
     width: 100%;
 }
 
-.card-heading--main,
-.card_content--heading {
+.card-heading,
+.card-content-heading {
     font-size: 17px;
     font-weight: bold;
 }
 
-.card-source--main,
-.card_content--source {
+.card-source,
+.card-content-source {
     font-size: 12px;
     color: #b2b2b2;
     font-style: italic;
 }
 
 .creative {
-    width: 40%;
+    width: 60%;
     margin-top: 5px;
     height: 5px;
 }
 
-.main_content--main_post_cards,
-.main_content--sec_posts_cards {
+.creative-main {
+    width: 40%;
+}
+
+.main-post-cards,
+.secondary-post-cards {
     margin-bottom: 20px;
 }
 
-.main_content--sec_posts_cards td {
+.secondary-post-cards td {
     vertical-align: top;
     width: 50%;
 }
 
-.main_thumb_adjuster--main_thumb {
+.secondary-post-cards td.gap {
+    width: 0px;
+    padding-left: 10px;
+}
+
+.main-card-thumb {
     width: 100%;
 }
 
-.card-desc-main {
-    font-size: 15px;
+.card-description {
+    font-size: 13px;
 }
 
-.card--link {
+.card-link {
     text-decoration: none;
     color: black;
 }
 
-.card--link:hover h2 {
+.card-link:hover .card-heading {
     text-decoration: underline;
 }
 
