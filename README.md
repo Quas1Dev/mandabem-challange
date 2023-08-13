@@ -1,4 +1,4 @@
-# Desáfio MandaBem
+# Desafio MandaBem
 
 Nesse projeto eu construí um documento HTML que apresenta conteúdo especialmente selecionado. Esse documento é um report diário para ser distruibuído via e-mail para clientes inscritos no serviço de Newsletter do [MandaTrends](https://www.mandatrends.com.br/).
 
