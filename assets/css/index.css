@@ -1,12 +1,37 @@
-body {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+li,
+dt,
+dd,
+blockquote,
+figure,
+pre {
     margin: 0;
-    background-color: #F5F5F5;
+    padding: 0;
 }
 
-/* Instead of using max-width, use width with percentage values for responsive design */
+body {
+    font-family: Arial, helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    background-color: #eeeeee;
+}
+
+/* Utils */
+.util-margin-text {
+    margin: 10px 0;
+}
+/* End utils */
 
 /* For email container */
 .email-container {
@@ -17,15 +42,22 @@ body {
     background-color: #ffffff;
 }
 
+/* Header */
 .header {
     position: relative;
     font-size: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 .header-image {
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
+/* End header */
 
+/* Footer */
 .footer-mandarin {
     background-color: #fc4c02;
     text-align: center;
@@ -50,11 +82,13 @@ body {
     color: #646869;
     text-decoration: underline;
 }
+
 .footer-copyright span {
     display: block;
 }
+/* End footer */
 
-/* For content wrapper */
+/* Content */
 .content-wrapper {
     width: 93%;
     max-width: 560px;
@@ -132,7 +166,9 @@ body {
     text-decoration: underline;
 }
 
-/* Additional styles based on feedback */
+/* End content */
+
+/* Requirement on some email clients */
 .ExternalClass {
     width: 100%;
 }
@@ -143,3 +179,5 @@ body {
 .ExternalClass td {
     line-height: 100%;
 }
+
+/* End requirement on some email clients */
