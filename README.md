@@ -22,19 +22,19 @@ Eu selecionei e testei o e-mail em 7 leitores diferentes. O resultado foi idênt
 ![Report no aplicativo Email.](https://github.com/Quas1Dev/mandabem-challange/blob/main/docs/email-por-cliente/email-windows.png?raw=true)
 
 - Outlook via internet:
-![Report na aplicação web Outlook.](https://github.com/Quas1Dev/mandabem-challenge/blob/main/docs/email-por-cliente/outlook-web.png?raw=true)
+![Report na aplicação web Outlook.](https://github.com/Quas1Dev/mandabem-challange/blob/main/docs/email-por-cliente/outlook-web.png?raw=true)
 
 - Gmail via internet:
-![Report na aplicação web Gmail.](https://github.com/Quas1Dev/mandabem-challenge/blob/main/docs/email-por-cliente/gmail-web.png?raw=true)
+![Report na aplicação web Gmail.](https://github.com/Quas1Dev/mandabem-challange/blob/main/docs/email-por-cliente/gmail-web.png?raw=true)
 
 - App Gmail no Android:
-![Report na aplicação Gmail.](https://github.com/Quas1Dev/mandabem-challenge/blob/main/docs/email-por-cliente/gmail-app-android.jpg?raw=true)
+![Report na aplicação Gmail.](https://github.com/Quas1Dev/mandabem-challange/blob/main/docs/email-por-cliente/gmail-app-android.jpg?raw=true)
 
 - App Outlook no Android:
-![Report na aplicação Outlook.](https://github.com/Quas1Dev/mandabem-challenge/blob/main/docs/email-por-cliente/outlook-app-android.jpg?raw=true)
+![Report na aplicação Outlook.](https://github.com/Quas1Dev/mandabem-challange/blob/main/docs/email-por-cliente/outlook-app-android.jpg?raw=true)
 
 - Vivaldi Webmail:
-![Report na aplicação web Vivaldi Webmail.](https://github.com/Quas1Dev/mandabem-challenge/blob/main/docs/email-por-cliente/vivaldi-webmail-web.png?raw=true)
+![Report na aplicação web Vivaldi Webmail.](https://github.com/Quas1Dev/mandabem-challange/blob/main/docs/email-por-cliente/vivald-webmail-web.png?raw=true)
 
 - Yahoo Mail:
-![Report na aplicação web do Yahoo.](https://github.com/Quas1Dev/mandabem-challenge/blob/main/docs/email-por-cliente/yahoo-web.png?raw=true)
+![Report na aplicação web do Yahoo.](https://github.com/Quas1Dev/mandabem-challange/blob/main/docs/email-por-cliente/yahoo-web.png?raw=true)
