@@ -2,7 +2,7 @@
 
 Nesse projeto, eu construí um documento HTML que consiste em um relatório diário para ser distribuído via e-mail para clientes inscritos no serviço de Newsletter do [MandaTrends](https://www.mandatrends.com.br/). Esse relatório contém conteúdo especialmente selecionado.
 
-O layout e aparência foram previamente definidos em um [arquivo no formato PSD](https://github.com/Quas1Dev/mandabem-challenge/blob/main/docs/arquivos-desafio/06_MANDA_TRENDS.psd). Esse arquivo foi distribuído para que os interessados pudessem completar o desafio, a saber: criar o documento HTML do relatório com base no PSD, levando em consideração as limitações dos softwares de leitura de e-mails.
+O layout e aparência foram previamente definidos em um [arquivo no formato PSD](https://github.com/Quas1Dev/mandabem-challenge/blob/main/_docs/arquivos-desafio/06_MANDA_TRENDS.psd). Esse arquivo foi distribuído para que os interessados pudessem completar o desafio, a saber: criar o documento HTML do relatório com base no PSD, levando em consideração as limitações dos softwares de leitura de e-mails.
 
 ## Tecnologias
 Para resolver o desafio, foram usadas as tecnologias básicas de desenvolvimento front-end: HTML e CSS. Nenhuma biblioteca ou framework relacionado a essas linguagens foi utilizado. Além disso, outras ferramentas foram necessárias para auxiliar no processo de desenvolvimento:
@@ -20,28 +20,28 @@ Eu selecionei e testei o e-mail em 7 leitores diferentes. O resultado foi idênt
 
 - App Email no Windows 10:
 
-![Report no aplicativo Email.](https://github.com/Quas1Dev/mandabem-challange/blob/main/docs/email-por-cliente/email-windows.png?raw=true)
+![Report no aplicativo Email.](https://github.com/Quas1Dev/mandabem-challange/blob/main/_docs/email-por-cliente/email-windows.png?raw=true)
 
 - Outlook via internet:
 
-![Report na aplicação web Outlook.](https://github.com/Quas1Dev/mandabem-challange/blob/main/docs/email-por-cliente/outlook-web.png?raw=true)
+![Report na aplicação web Outlook.](https://github.com/Quas1Dev/mandabem-challange/blob/main/_docs/email-por-cliente/outlook-web.png?raw=true)
 
 - Gmail via internet:
 
-![Report na aplicação web Gmail.](https://github.com/Quas1Dev/mandabem-challange/blob/main/docs/email-por-cliente/gmail-web.png?raw=true)
+![Report na aplicação web Gmail.](https://github.com/Quas1Dev/mandabem-challange/blob/main/_docs/email-por-cliente/gmail-web.png?raw=true)
 
 - App Gmail no Android:
 
-![Report na aplicação Gmail.](https://github.com/Quas1Dev/mandabem-challange/blob/main/docs/email-por-cliente/gmail-app-android.jpg?raw=true)
+![Report na aplicação Gmail.](https://github.com/Quas1Dev/mandabem-challange/blob/main/_docs/email-por-cliente/gmail-app-android.jpg?raw=true)
 
 - App Outlook no Android:
 
-![Report na aplicação Outlook.](https://github.com/Quas1Dev/mandabem-challange/blob/main/docs/email-por-cliente/outlook-app-android.jpg?raw=true)
+![Report na aplicação Outlook.](https://github.com/Quas1Dev/mandabem-challange/blob/main/_docs/email-por-cliente/outlook-app-android.jpg?raw=true)
 
 - Vivaldi Webmail:
 
-![Report na aplicação web Vivaldi Webmail.](https://github.com/Quas1Dev/mandabem-challange/blob/main/docs/email-por-cliente/vivald-webmail-web.png?raw=true)
+![Report na aplicação web Vivaldi Webmail.](https://github.com/Quas1Dev/mandabem-challange/blob/main/_docs/email-por-cliente/vivald-webmail-web.png?raw=true)
 
 - Yahoo Mail:
 
-![Report na aplicação web do Yahoo.](https://github.com/Quas1Dev/mandabem-challange/blob/main/docs/email-por-cliente/yahoo-web.png?raw=true)
+![Report na aplicação web do Yahoo.](https://github.com/Quas1Dev/mandabem-challange/blob/main/_docs/email-por-cliente/yahoo-web.png?raw=true)
