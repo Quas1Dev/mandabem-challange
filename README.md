@@ -15,6 +15,10 @@ Para resolver o desafio, foram usadas as tecnologias básicas de desenvolvimento
 
 - [HTML Email Check](https://www.htmlemailcheck.com/): É um validador de HTML para e-mails; uma ferramenta online que lê o código do e-mail e apresenta dicas sobre o que está faltando ou o que pode ser melhorado para que o e-mail esteja adequado para mais clientes de e-mail.
 
+- [Git](https://git-scm.com/): É uma ferramenta para o versionamento de produtos digitais. 
+
+- [GitHub](https://github.com/): É um repositório online para projetos que empregam o Git no controle de versões. É onde eu armazenei todo o código do projeto.
+
 ## Resultados
 Eu selecionei e testei o e-mail em 7 leitores diferentes. O resultado foi idêntico em cada um deles, como pode ser constatado na série de screenshots exibidos abaixo:
 
@@ -45,3 +49,5 @@ Eu selecionei e testei o e-mail em 7 leitores diferentes. O resultado foi idênt
 - Yahoo Mail:
 
 ![Report na aplicação web do Yahoo.](https://github.com/Quas1Dev/mandabem-challange/blob/main/_docs/email-por-cliente/yahoo-web.png?raw=true)
+
+
