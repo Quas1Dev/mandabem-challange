@@ -1,0 +1,24 @@
+{
+  "name": "mandabem-challange",
+  "version": "1.0.0",
+  "description": "Nesse projeto, eu construí um documento HTML que consiste em um relatório diário para ser distribuído via e-mail para clientes inscritos no serviço de Newsletter do [MandaTrends](https://www.mandatrends.com.br/). Esse relatório contém conteúdo especialmente selecionado.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quas1Dev/mandabem-challange.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quas1Dev/mandabem-challange/issues"
+  },
+  "homepage": "https://github.com/Quas1Dev/mandabem-challange#readme",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
