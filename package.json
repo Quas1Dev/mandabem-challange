@@ -4,7 +4,7 @@
   "description": "Nesse projeto, eu construí um documento HTML que consiste em um relatório diário para ser distribuído via e-mail para clientes inscritos no serviço de Newsletter do [MandaTrends](https://www.mandatrends.com.br/). Esse relatório contém conteúdo especialmente selecionado.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bundle": "webpack --mode=production"
   },
   "repository": {
     "type": "git",
