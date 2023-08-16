@@ -63,3 +63,6 @@ $RECYCLE.BIN/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+# Node JS
+node_modules/
